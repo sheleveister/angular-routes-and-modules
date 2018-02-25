@@ -4,7 +4,7 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 @Component({
   selector: 'app-car-page',
   templateUrl: './car-page.component.html',
-  styleUrls: ['./car-page.component.scss', '../../assets/bootstrap.css']
+  styleUrls: ['./car-page.component.scss', '../../../assets/bootstrap.css']
 })
 export class CarPageComponent implements OnInit {
 
