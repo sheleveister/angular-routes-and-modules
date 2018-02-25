@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Cars list</h2>
+  <hr>
+
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let car of cars">
+      <a [routerLink]="['/cars', car.id, car.name]"
+        [queryParams]="{year: car.year, color: car.color}"
+        fragment="pic">
+        {{ car.name }}
+      </a>
+    </li>
+  </ul>
+
+</div>
