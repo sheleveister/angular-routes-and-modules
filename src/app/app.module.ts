@@ -11,7 +11,6 @@ import { AuthGuard } from './auth-guard.service';
 import { AuthService } from './auth.service';
 import { NewPageComponent } from './new-page/new-page.component';
 import { HeaderComponent } from './header/header.component';
-import { CarsModule } from './cars-page/cars.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { CarsModule } from './cars-page/cars.module';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    CarsModule,
   ],
   providers: [
     AuthService,
