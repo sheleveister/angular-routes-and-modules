@@ -9,13 +9,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { CarPageComponent } from './car-page/car-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarsPageComponent,
     HomePageComponent,
-    CarPageComponent
+    CarPageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
