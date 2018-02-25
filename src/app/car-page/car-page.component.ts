@@ -37,10 +37,6 @@ export class CarPageComponent implements OnInit {
     });
   }
 
-  public openCarsPage() {
-    this.router.navigate(['/cars']);
-  }
-
   public openMazdaPage() {
     this.router.navigate(['/cars', 8, 'Mazda'], {
       queryParams: {
